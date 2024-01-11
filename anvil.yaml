@@ -1,12 +1,17 @@
-allow_embedding: false
-package_name: Bar_Exam_Study_Helper
-name: Bar Exam Study Helper
-startup_form: Form1
-renamed: true
-runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
-  server_spec: null}
 dependencies: []
 services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
+startup: {type: form, module: Index}
+package_name: Bar_Exam_Study_Helper
+allow_embedding: false
+name: Bar Exam Study Helper
+runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
+  server_spec: null}
+metadata: {title: Legal Study, description: 'We help all those interested in U.S law
+    hone their skills with our innovative and proven learning methods, whether you''re
+    studying for the bar, seeking to maintain your expertise, or simply want to learn!
+    Sign up today completely free.'}
+startup_form: null
+renamed: true
