@@ -16,7 +16,7 @@ components:
     - name: contracts_link
       properties: {text: Contracts}
       type: Link
-      layout_properties: {row: ZGMAEX, width_xs: 12, col_xs: 0}
+      layout_properties: {row: IMFLLJ, width_xs: 12, col_xs: 0}
     - name: form2_1
       properties: {value: 29, block_gap: 2, block_size: 2, border_colour: '#ffffffff',
         border_width: 0}
@@ -118,6 +118,19 @@ components:
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+  components:
+  - name: link_4
+    properties: {}
+    type: Link
+  - name: link_3
+    properties: {}
+    type: Link
+  - name: link_2
+    properties: {}
+    type: Link
+  - name: link_1
+    properties: {}
+    type: Link
 - name: title
   properties: {text: 'Legal Study
 
