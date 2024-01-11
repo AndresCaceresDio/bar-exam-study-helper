@@ -18,9 +18,9 @@ components:
       type: Link
       layout_properties: {row: ZGMAEX, width_xs: 12, col_xs: 0}
     - name: form2_1
-      properties: {}
+      properties: {value: 25, block_gap: 3}
       type: form:ProgressBar
-      layout_properties: {row: EGWJTI, width_xs: 7, col_xs: 5}
+      layout_properties: {row: BFTODM, width_xs: 12, col_xs: 0}
   - name: grid_panel_3
     properties: {}
     type: GridPanel
@@ -30,6 +30,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {row: HBSZIO, width_xs: 12, col_xs: 0}
+    - name: form2_1_copy_3
+      properties: {value: 25}
+      type: form:ProgressBar
+      layout_properties: {row: JAYZVN, width_xs: 12, col_xs: 0}
   - name: grid_panel_5
     properties: {}
     type: GridPanel
@@ -39,6 +43,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {row: KAGHVW, width_xs: 12, col_xs: 0}
+    - name: form2_1_copy_4
+      properties: {value: 25}
+      type: form:ProgressBar
+      layout_properties: {row: LMEJYH, width_xs: 12, col_xs: 0}
   - name: grid_panel_7
     properties: {}
     type: GridPanel
@@ -48,6 +56,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {row: WPZUAA, width_xs: 12, col_xs: 0}
+    - name: form2_1_copy_7
+      properties: {value: 25}
+      type: form:ProgressBar
+      layout_properties: {row: IDPGGZ, width_xs: 12, col_xs: 0}
   - name: grid_panel_2
     properties: {}
     type: GridPanel
@@ -57,6 +69,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {row: UWNOVV, width_xs: 12, col_xs: 0}
+    - name: form2_1_copy
+      properties: {value: 25}
+      type: form:ProgressBar
+      layout_properties: {row: ALAZWD, width_xs: 12, col_xs: 0}
   - name: grid_panel_4
     properties: {}
     type: GridPanel
@@ -66,6 +82,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {row: TTCVRH, width_xs: 12, col_xs: 0}
+    - name: form2_1_copy_2
+      properties: {value: 25}
+      type: form:ProgressBar
+      layout_properties: {row: UEHVSA, width_xs: 12, col_xs: 0}
   - name: grid_panel_6
     properties: {}
     type: GridPanel
@@ -75,6 +95,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {row: QLMUIF, width_xs: 12, col_xs: 0}
+    - name: form2_1_copy_5
+      properties: {value: 25}
+      type: form:ProgressBar
+      layout_properties: {row: AZJHUH, width_xs: 12, col_xs: 0}
   - name: grid_panel_8
     properties: {}
     type: GridPanel
@@ -84,6 +108,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {row: ENZPAM, width_xs: 12, col_xs: 0}
+    - name: form2_1_copy_6
+      properties: {value: 25}
+      type: form:ProgressBar
+      layout_properties: {row: DLAVXS, width_xs: 12, col_xs: 0}
 - type: FlowPanel
   properties: {}
   name: navbar_links
