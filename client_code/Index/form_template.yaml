@@ -119,6 +119,8 @@ components:
   name: navbar_links
   layout_properties: {slot: nav-right}
 - name: title
-  properties: {}
+  properties: {text: 'Legal Study
+
+      '}
   type: Label
   layout_properties: {slot: title}
