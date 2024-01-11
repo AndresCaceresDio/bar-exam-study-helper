@@ -1,0 +1,195 @@
+is_package: true
+container:
+  type: HtmlTemplate
+  properties: {html: '@theme:standard-page.html', foreground: '', background: '#008B8B'}
+components:
+- type: ColumnPanel
+  properties: {col_widths: '{}'}
+  name: content_panel
+  layout_properties: {slot: default}
+  components:
+  - name: grid_panel_1
+    properties: {}
+    type: GridPanel
+    layout_properties: {grid_position: 'KZKCSL,TUASQI RZOUVA,XSXNZE'}
+    components:
+    - name: contracts_link
+      properties: {text: Contracts, align: center}
+      type: Link
+      layout_properties: {row: IMFLLJ, width_xs: 12, col_xs: 0}
+    - name: contracts_image
+      properties: {source: _/theme/5325871-200.png}
+      type: Image
+      layout_properties: {row: GTWSXI, width_xs: 7, col_xs: 2}
+    - name: contracts_progress_label
+      properties: {text: Topic 2 of 16, align: center}
+      type: Label
+      layout_properties: {row: BFTODM, width_xs: 12, col_xs: 0}
+    - name: contracts_progress
+      properties: {value: 29, block_gap: 2, block_size: 2, border_colour: '#ffffffff',
+        border_width: 0}
+      type: form:progress_bar
+      layout_properties: {row: BFTODM, width_xs: 12, col_xs: 0}
+      data_bindings: []
+  - name: grid_panel_3
+    properties: {}
+    type: GridPanel
+    layout_properties: {grid_position: 'KZKCSL,TUASQI NXWZBN,MXGRXD'}
+    components:
+    - name: crimlaw_and_procedure_link
+      properties: {text: Criminal Law and Procedure, align: center}
+      type: Link
+      layout_properties: {row: HBSZIO, width_xs: 12, col_xs: 0}
+    - name: crimlaw_and_procedure_image
+      properties: {source: _/theme/3850517.png}
+      type: Image
+      layout_properties: {row: BGKOTR, width_xs: 7, col_xs: 2}
+    - name: crimlaw_and_procedure_progress_label
+      properties: {text: Topic 3 of 56, align: center}
+      type: Label
+      layout_properties: {row: JAYZVN, width_xs: 12, col_xs: 0}
+    - name: crimlaw_and_procedure_progress
+      properties: {value: 25, border_colour: '#fffffffff', border_width: 0}
+      type: form:progress_bar
+      layout_properties: {row: JAYZVN, width_xs: 12, col_xs: 0}
+  - name: grid_panel_5
+    properties: {}
+    type: GridPanel
+    layout_properties: {grid_position: 'KZKCSL,TUASQI NIHSXK,VIAELH'}
+    components:
+    - name: evidence_link
+      properties: {text: Evidence, align: center}
+      type: Link
+      layout_properties: {row: KAGHVW, width_xs: 12, col_xs: 0}
+    - name: evidence_image
+      properties: {source: _/theme/5354671-200.png}
+      type: Image
+      layout_properties: {row: QYXWPM, width_xs: 7, col_xs: 2}
+    - name: evidence_progress_label
+      properties: {text: Topic 17 of 24, align: center}
+      type: Label
+      layout_properties: {row: LMEJYH, width_xs: 12, col_xs: 0}
+    - name: evidence_progress
+      properties: {value: 25, border_colour: '#fffffffff', border_width: 0}
+      type: form:progress_bar
+      layout_properties: {row: LMEJYH, width_xs: 12, col_xs: 0}
+  - name: grid_panel_7
+    properties: {}
+    type: GridPanel
+    layout_properties: {grid_position: 'KZKCSL,TUASQI VHCYWZ,EPKKMK'}
+    components:
+    - name: torts_link
+      properties: {text: Torts, align: center}
+      type: Link
+      layout_properties: {row: WPZUAA, width_xs: 12, col_xs: 0}
+    - name: torts_image
+      properties: {source: _/theme/6987274.png}
+      type: Image
+      layout_properties: {row: JFCHAZ, width_xs: 7, col_xs: 2}
+    - name: torts_progress_label
+      properties: {text: Topic 6 of 7, align: center}
+      type: Label
+      layout_properties: {row: IDPGGZ, width_xs: 12, col_xs: 0}
+    - name: torts_progress
+      properties: {value: 25, border_colour: '#fffffffff', border_width: 0}
+      type: form:progress_bar
+      layout_properties: {row: IDPGGZ, width_xs: 12, col_xs: 0}
+  - name: grid_panel_2
+    properties: {}
+    type: GridPanel
+    layout_properties: {grid_position: 'KZKCSL,JBKADL OZSJNK,KMXCMX'}
+    components:
+    - name: conlaw_link
+      properties: {text: Constitutional Law, align: center}
+      type: Link
+      layout_properties: {row: UWNOVV, width_xs: 12, col_xs: 0}
+    - name: conlaw_image
+      properties: {source: _/theme/740300-200.png}
+      type: Image
+      layout_properties: {row: KDZKCM, width_xs: 7, col_xs: 2}
+    - name: conlaw_progress_label
+      properties: {text: Topic 1 of 40, align: center}
+      type: Label
+      layout_properties: {row: ALAZWD, width_xs: 12, col_xs: 0}
+    - name: conlaw_progress
+      properties: {value: 25, border_colour: '#fffffffff', border_width: 0}
+      type: form:progress_bar
+      layout_properties: {row: ALAZWD, width_xs: 12, col_xs: 0}
+  - name: grid_panel_4
+    properties: {}
+    type: GridPanel
+    layout_properties: {grid_position: 'KZKCSL,JBKADL TJJZTI,KITNHM'}
+    components:
+    - name: civprocedure_link
+      properties: {text: Civil Procedure, align: center}
+      type: Link
+      layout_properties: {row: TTCVRH, width_xs: 12, col_xs: 0}
+    - name: civprocedure_image
+      properties: {source: _/theme/3850118.png}
+      type: Image
+      layout_properties: {row: ORZGFV, width_xs: 7, col_xs: 2}
+    - name: civprocedure_progress_label
+      properties: {text: Topic 9 of 80, align: center}
+      type: Label
+      layout_properties: {row: UEHVSA, width_xs: 12, col_xs: 0}
+    - name: civprocedure_progress
+      properties: {value: 25, border_width: 0, border_colour: '#fffffffff'}
+      type: form:progress_bar
+      layout_properties: {row: UEHVSA, width_xs: 12, col_xs: 0}
+  - name: grid_panel_6
+    properties: {}
+    type: GridPanel
+    layout_properties: {grid_position: 'KZKCSL,JBKADL YCDBVV,CNBNKF'}
+    components:
+    - name: real_property_link
+      properties: {text: Real Property, align: center}
+      type: Link
+      layout_properties: {row: QLMUIF, width_xs: 12, col_xs: 0}
+    - name: real_property_image
+      properties: {source: _/theme/4896425.png}
+      type: Image
+      layout_properties: {row: BFWTBC, width_xs: 7, col_xs: 2}
+    - name: real_property_progress_label
+      properties: {text: Topic 8 of 23, align: center}
+      type: Label
+      layout_properties: {row: AZJHUH, width_xs: 12, col_xs: 0}
+    - name: real_property_progress
+      properties: {value: 25, border_colour: '#fffffffff', border_width: 0}
+      type: form:progress_bar
+      layout_properties: {row: AZJHUH, width_xs: 12, col_xs: 0}
+  - name: grid_panel_8
+    properties: {}
+    type: GridPanel
+    layout_properties: {grid_position: 'KZKCSL,JBKADL ROSOYG,JLRMZT'}
+    components:
+    - name: practests_link
+      properties: {text: Practice Tests, align: center}
+      type: Link
+      layout_properties: {row: ENZPAM, width_xs: 12, col_xs: 0}
+    - name: practests_image
+      properties: {source: _/theme/1320426.png, height: 291.0478515625}
+      type: Image
+      layout_properties: {row: INQLXB, width_xs: 8, col_xs: 2}
+- type: FlowPanel
+  properties: {}
+  name: navbar_links
+  layout_properties: {slot: nav-right}
+  components:
+  - name: link_4
+    properties: {}
+    type: Link
+  - name: link_3
+    properties: {}
+    type: Link
+  - name: link_2
+    properties: {}
+    type: Link
+  - name: link_1
+    properties: {}
+    type: Link
+- name: title
+  properties: {text: 'Legal Study
+
+      '}
+  type: Label
+  layout_properties: {slot: title}

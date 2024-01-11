@@ -3,7 +3,7 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
-startup: {type: form, module: Index}
+startup: {type: form, module: home}
 package_name: Bar_Exam_Study_Helper
 allow_embedding: false
 name: Bar Exam Study Helper
