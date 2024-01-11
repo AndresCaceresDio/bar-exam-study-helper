@@ -1,0 +1,18 @@
+properties:
+- {name: value, type: number, important: true, default_binding_prop: true, default_value: 25}
+- {name: style, type: string, default_value: smooth, important: true}
+- {name: border_width, type: number, important: true, default_value: 0.5}
+- {name: border_color, type: string, default_value: '#7777777', important: true}
+- {name: block_gap, type: number, important: true, default_value: 2}
+- {name: bar_colour, type: string, default_value: '#0000000', important: true}
+- {name: block_size, type: number, important: true, default_value: 5}
+- {name: height, type: number, important: true, default_value: 20}
+is_package: true
+toolbox_item: {title: Progress Bar}
+custom_component: true
+components: []
+container:
+  type: HtmlTemplate
+  properties: {html: "<center style=\"font-style:italic; color:#888; margin: 3em;\"\
+      >\n  (Insert your custom HTML here)\n</center>\n<div anvil-slot=\"default\"\
+      ></div>"}

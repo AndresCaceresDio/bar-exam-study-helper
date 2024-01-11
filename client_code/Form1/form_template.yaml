@@ -17,6 +17,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {row: ZGMAEX, width_xs: 12, col_xs: 0}
+    - name: form2_1
+      properties: {}
+      type: form:Form2
+      layout_properties: {row: EGWJTI, width_xs: 7, col_xs: 5}
   - name: grid_panel_3
     properties: {}
     type: GridPanel
