@@ -22,6 +22,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {grid_position: 'YQYGMF,VPZXWN'}
+    - name: torts_u1_t1_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'NCAYPT,VYBLXO'}
   - name: torts_u1_t2
     properties: {role: outlined-card}
     type: ColumnPanel
@@ -31,6 +35,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {grid_position: 'UKRWDC,KUGZVJ'}
+    - name: torts_u1_t2_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'SNXQHS,EXWJOV'}
   - name: torts_u1_practice
     properties: {role: outlined-card}
     type: ColumnPanel
@@ -40,6 +48,14 @@ components:
       properties: {}
       type: Link
       layout_properties: {grid_position: 'SSRQRG,RIMLFX'}
+    - name: torts_u1_practice_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'OWSGLH,NHGLHN'}
+  - name: spacer_1
+    properties: {height: '250'}
+    type: Spacer
+    layout_properties: {grid_position: 'RHOXIW,PKDDTV'}
 - name: torts_u3
   properties: {role: outlined-card}
   type: ColumnPanel
@@ -58,6 +74,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {grid_position: 'KJWTJZ,WSEOQV'}
+    - name: torts_u3_t1_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'DAROOE,MXRRAM'}
   - name: torts_u3_t2
     properties: {role: outlined-card}
     type: ColumnPanel
@@ -67,6 +87,14 @@ components:
       properties: {}
       type: Link
       layout_properties: {grid_position: 'HJQCXD,TVIQEO'}
+    - name: torts_u3_practice_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'FJPODY,KXWLCQ'}
+  - name: spacer_2
+    properties: {height: '252'}
+    type: Spacer
+    layout_properties: {grid_position: 'RSFCEN,SOHBCS'}
 - name: torts_u2
   properties: {role: outlined-card}
   type: ColumnPanel
@@ -85,6 +113,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {grid_position: 'DAQFXL,BMMLJM'}
+    - name: torts_u2_t1_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'ADTBIW,ZZTYNX'}
   - name: torts_u2_t3
     properties: {role: outlined-card}
     type: ColumnPanel
@@ -94,6 +126,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {grid_position: 'AUUODK,SFAPFT'}
+    - name: torts_u2_t3_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'JYUYVD,EQZPTS'}
   - name: torts_u2_t5
     properties: {role: outlined-card}
     type: ColumnPanel
@@ -103,6 +139,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {grid_position: 'SAVPIS,ELITHX'}
+    - name: torts_u2_t5_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'PXBQBV,BQBRQV'}
   - name: torts_u2_t7
     properties: {role: outlined-card}
     type: ColumnPanel
@@ -112,6 +152,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {grid_position: 'SAVPIS,ELITHX'}
+    - name: torts_u2_t7_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'YHEOMP,ZOTRNP'}
   - name: torts_u2_t2
     properties: {role: outlined-card}
     type: ColumnPanel
@@ -121,6 +165,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {grid_position: 'GQPZIH,EXLVTV'}
+    - name: torts_u2_t2_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'AGACLV,VMHCLI'}
   - name: torts_u2_t4
     properties: {role: outlined-card}
     type: ColumnPanel
@@ -130,6 +178,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {grid_position: 'XKPOWB,BQRSGE'}
+    - name: torts_u2_t4_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'RILNHR,WHQZYG'}
   - name: torts_u2_t6
     properties: {role: outlined-card}
     type: ColumnPanel
@@ -139,6 +191,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {grid_position: 'THARHG,UYJCXQ'}
+    - name: torts_u2_t6_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'MLDRQO,ZHQZBK'}
   - name: torts_u2_practice
     properties: {role: outlined-card}
     type: ColumnPanel
@@ -148,6 +204,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {grid_position: 'ALQKSD,WSYOWX'}
+    - name: torts_u2_practice_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'YPOMNJ,ROHYXY'}
 - name: torts_u4
   properties: {role: outlined-card}
   type: ColumnPanel
@@ -166,6 +226,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {grid_position: 'ZALUEL,CEGIFI'}
+    - name: torts_u4_t1_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'EHGJMX,ABIUCS'}
   - name: torts_u4_t3
     properties: {role: outlined-card}
     type: ColumnPanel
@@ -175,6 +239,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {grid_position: 'BDYSDL,FUIHHD'}
+    - name: torts_u4_t3_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'LICCFP,LKRBKD'}
   - name: torts_u4_t2
     properties: {role: outlined-card}
     type: ColumnPanel
@@ -184,6 +252,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {grid_position: 'AXIJKB,CMXWVH'}
+    - name: torts_u4_t2_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'BNYFQK,DOTDAU'}
   - name: torts_u4_t4
     properties: {role: outlined-card}
     type: ColumnPanel
@@ -193,6 +265,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {grid_position: 'CLIAMX,SEAAFI'}
+    - name: torts_u4_t4_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'AZITKK,KMKEED'}
   - name: torts_u4_practice
     properties: {role: outlined-card}
     type: ColumnPanel
@@ -202,6 +278,10 @@ components:
       properties: {}
       type: Link
       layout_properties: {grid_position: 'BMFJIX,WMTSTX'}
+    - name: torts_u4_practice_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'KLNGFX,UZAKCF'}
 - name: torts_quiz
   properties: {role: outlined-card}
   type: ColumnPanel
