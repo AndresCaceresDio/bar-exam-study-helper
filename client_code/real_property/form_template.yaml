@@ -1,411 +1,321 @@
 container: {type: ColumnPanel}
 components:
-- name: contracts_title
-  properties: {align: center, text: Contracts}
+- name: realp_title
+  properties: {align: center, text: Real Property}
   type: Label
   layout_properties: {grid_position: 'AVJXXY,DQMMVI'}
-- name: contracts_u1
+- name: realp_u1
   properties: {role: outlined-card}
   type: ColumnPanel
   layout_properties: {grid_position: 'HYUJVL,TXGAZU KPMOVG,IVXHDN'}
   components:
-  - name: contracts_u1_label
-    properties: {text: Formation of Contracts, align: center}
+  - name: realp_u1_label
+    properties: {text: Ownership of Real Property, align: center}
     type: Label
     layout_properties: {grid_position: 'DZQFCB,YNTEZY'}
-  - name: contracts_u1_t1
+  - name: realp_u1_t1
     properties: {role: outlined-card}
     type: ColumnPanel
     layout_properties: {grid_position: 'UWZZTU,DJCUUM VWUGJC,FZHUVJ'}
     components:
-    - name: contracts_u1_t1_link
+    - name: realp_u1_t1_link
       properties: {}
       type: Link
       layout_properties: {grid_position: 'YQYGMF,VPZXWN'}
-  - name: contracts_u1_t3
+  - name: realp_u1_t3
     properties: {role: outlined-card}
     type: ColumnPanel
     layout_properties: {grid_position: 'UWZZTU,DJCUUM HOXBOY,QLDIDO'}
     components:
-    - name: contracts_u1_t3_link
+    - name: realp_u1_t3_link
       properties: {}
       type: Link
       layout_properties: {grid_position: 'CAQWJI,BMFHQN'}
-  - name: contracts_u1_t5
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'UWZZTU,DJCUUM ZKYMIZ,GNGNVV'}
-    components:
-    - name: contracts_u1_t5_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'QOCJNV,NNWOEX'}
-  - name: contracts_u1_t2
+  - name: realp_u1_t2
     properties: {role: outlined-card}
     type: ColumnPanel
     layout_properties: {grid_position: 'UWZZTU,ANQQSF SIEEGU,CITVKI'}
     components:
-    - name: contracts_u1_t2_link
+    - name: realp_u1_t2_link
       properties: {}
       type: Link
       layout_properties: {grid_position: 'UKRWDC,KUGZVJ'}
-  - name: contracts_u1_t4
+  - name: realp_u1_t4
     properties: {role: outlined-card}
     type: ColumnPanel
     layout_properties: {grid_position: 'UWZZTU,ANQQSF BLEVZQ,DBBEYO'}
     components:
-    - name: contracts_u1_t4_link
+    - name: realp_u1_t4_link
       properties: {}
       type: Link
       layout_properties: {grid_position: 'PLAYNQ,DHQAUP'}
-  - name: contracts_u1_practice
+  - name: realp_u1_practice
     properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'UWZZTU,ANQQSF YQUECQ,IGZVOV'}
+    layout_properties: {grid_position: 'ULDKHD,XWSODK'}
     components:
-    - name: contracts_u1_practice_link
+    - name: realp_u1_practice_link
       properties: {}
       type: Link
       layout_properties: {grid_position: 'SSRQRG,RIMLFX'}
-- name: contracts_u3
+- name: realp_u3
   properties: {role: outlined-card}
   type: ColumnPanel
-  layout_properties: {grid_position: 'HYUJVL,TXGAZU MDDQPD,KUPRFB'}
+  layout_properties: {grid_position: 'HYUJVL,TXGAZU PYCICV,HRGLWV'}
   components:
-  - name: contracts_u3_label
-    properties: {text: Contract Content and Meaning, align: center}
-    type: Label
-    layout_properties: {grid_position: 'DNOUNG,STZVHA'}
-  - name: contracts_u3_t1
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'HAWPNK,VWCIFM FWAJMI,BDPZUE'}
-    components:
-    - name: contracts_u3_t1_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'KJWTJZ,WSEOQV'}
-  - name: contracts_u3_t3
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'HAWPNK,VWCIFM IJQIUT,WRMPIN'}
-    components:
-    - name: contracts_u3_t3_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'JXZXRW,NWOHMU'}
-  - name: contracts_u3_t2
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'HAWPNK,ZBKXEN BVBPHQ,FXNGRT'}
-    components:
-    - name: contracts_u3_t2_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'OSYNFU,RBMLXW'}
-  - name: contracts_u3_practice
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'HAWPNK,ZBKXEN BEACTA,ZRKDSM'}
-    components:
-    - name: contracts_u3_practice_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'HJQCXD,TVIQEO'}
-- name: contracts_u5
-  properties: {role: outlined-card}
-  type: ColumnPanel
-  layout_properties: {grid_position: 'HYUJVL,TXGAZU IRKVZD,XMWPEJ'}
-  components:
-  - name: contracts_u5_label
-    properties: {text: Remedies, align: center}
-    type: Label
-    layout_properties: {grid_position: 'DHCLTV,LDCPVI'}
-  - name: contracts_u5_t1
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'SSOKGX,ABSTHD BRLRLN,BCSGWZ'}
-    components:
-    - name: contracts_u5_t1_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'EZPNIC,JUPFXR'}
-  - name: contracts_u5_t3
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'SSOKGX,ABSTHD AQMCEA,LORCDT'}
-    components:
-    - name: contracts_u5_t3_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'ICYLXO,UAUUSM'}
-  - name: contracts_u5_t5
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'SSOKGX,ABSTHD YUODYZ,PEVYHD'}
-    components:
-    - name: contracts_u5_t5_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'HOGLHN,THMYKB'}
-  - name: contracts_u5_t7
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'SSOKGX,ABSTHD GLQDCZ,TWVLNX'}
-    components:
-    - name: contracts_u5_t7_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'VYCGCD,YJDCKY'}
-  - name: contracts_u5_t2
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'SSOKGX,VLLQPQ IQSQBA,NZPWEA'}
-    components:
-    - name: contracts_u5_t2_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'UPEOWZ,CRRIKG'}
-  - name: contracts_u5_t4
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'SSOKGX,VLLQPQ GKHNFO,TUYGPO'}
-    components:
-    - name: contracts_u5_t4_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'VIOWDF,SYHEBF'}
-  - name: contracts_u5_t6
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'SSOKGX,VLLQPQ NSWIRH,GNBQMR'}
-    components:
-    - name: contracts_u5_t6_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'NHJLKF,KDXRMX'}
-  - name: contracts_u5_t8
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'SSOKGX,VLLQPQ RUAELK,QJSXPI'}
-    components:
-    - name: contracts_u5_t8_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'GKNDBA,VSYWEX'}
-  - name: contracts_u5_practice
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'FONYIB,GOXENM'}
-    components:
-    - name: contracts_u5_practice_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'GYLTWI,MEIHZM'}
-- name: contracts_u2
-  properties: {role: outlined-card}
-  type: ColumnPanel
-  layout_properties: {grid_position: 'HYUJVL,MIXCWL QIJCDO,IPHZBL'}
-  components:
-  - name: contracts_u2_label
-    properties: {text: Defenses to Enforceability, align: center}
-    type: Label
-    layout_properties: {grid_position: 'UQTNEV,UUWGXG'}
-  - name: contracts_u2_t1
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'SUOGYR,BRLXSC EGOPCY,BLBTOJ'}
-    components:
-    - name: contracts_u2_t1_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'DAQFXL,BMMLJM'}
-  - name: contracts_u2_t3
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'SUOGYR,BRLXSC AQOIXP,XQTQNG'}
-    components:
-    - name: contracts_u2_t3_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'AUUODK,SFAPFT'}
-  - name: contracts_u2_t5
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'SUOGYR,BRLXSC STTRUB,NDJXVJ'}
-    components:
-    - name: contracts_u2_t5_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'SAVPIS,ELITHX'}
-  - name: contracts_u2_t2
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'SUOGYR,OZOHFA JIHSUA,XZYIHN'}
-    components:
-    - name: contracts_u2_t2_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'GQPZIH,EXLVTV'}
-  - name: contracts_u2_t4
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'SUOGYR,OZOHFA DHUPQE,CDAEZP'}
-    components:
-    - name: contracts_u2_t4_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'XKPOWB,BQRSGE'}
-  - name: contracts_u2_t6
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'SUOGYR,OZOHFA XNDFAJ,YHYWBW'}
-    components:
-    - name: contracts_u2_t6_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'THARHG,UYJCXQ'}
-  - name: contracts_u2_practice
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'CNPMUK,XZBQSW'}
-    components:
-    - name: contracts_u2_practice_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'ALQKSD,WSYOWX'}
-- name: contracts_u4
-  properties: {role: outlined-card}
-  type: ColumnPanel
-  layout_properties: {grid_position: 'HYUJVL,MIXCWL ZSHSEB,BPSRCZ'}
-  components:
-  - name: contracts_u4_label
-    properties: {text: 'Performance, Breach, and Discharge', align: center}
+  - name: realp_u3_label
+    properties: {text: Real Estate Contracts, align: center}
     type: Label
     layout_properties: {grid_position: 'UUKQWF,STBPRS'}
-  - name: contracts_u4_t1
+  - name: realp_u3_t1
     properties: {role: outlined-card}
     type: ColumnPanel
     layout_properties: {grid_position: 'RQQTVN,CTQJWD CCWCEH,PFPMCR'}
     components:
-    - name: contracts_u4_t1_link
+    - name: realp_u3_t1_link
       properties: {}
       type: Link
       layout_properties: {grid_position: 'ZALUEL,CEGIFI'}
-  - name: contracts_u4_t3
+  - name: realp_u3_t3
     properties: {role: outlined-card}
     type: ColumnPanel
     layout_properties: {grid_position: 'RQQTVN,CTQJWD UQZKCD,JGCHIW'}
     components:
-    - name: contracts_u4_t3_link
+    - name: realp_u3_t3_link
       properties: {}
       type: Link
       layout_properties: {grid_position: 'BDYSDL,FUIHHD'}
-  - name: contracts_u4_t5
+  - name: realp_u3_t5
     properties: {role: outlined-card}
     type: ColumnPanel
     layout_properties: {grid_position: 'RQQTVN,CTQJWD OWUIJB,TVEEEU'}
     components:
-    - name: contracts_u4_t5_link
+    - name: realp_u3_t5_link
       properties: {}
       type: Link
       layout_properties: {grid_position: 'EZZUPD,XSMEPM'}
-  - name: contracts_u4_t7
+  - name: realp_u3_t7
     properties: {role: outlined-card}
     type: ColumnPanel
     layout_properties: {grid_position: 'RQQTVN,CTQJWD SDGNMC,TPEEKH'}
     components:
-    - name: contracts_u4_t7_link
+    - name: realp_u3_t7_link
       properties: {}
       type: Link
       layout_properties: {grid_position: 'PVEBGY,UZJGLN'}
-  - name: contracts_u4_t2
+  - name: realp_u3_t2
     properties: {role: outlined-card}
     type: ColumnPanel
     layout_properties: {grid_position: 'RQQTVN,STWIAD NMAHPV,QHYZWR'}
     components:
-    - name: contracts_u4_t2_link
+    - name: realp_u3_t2_link
       properties: {}
       type: Link
       layout_properties: {grid_position: 'AXIJKB,CMXWVH'}
-  - name: contracts_u4_t4
+  - name: realp_u3_t4
     properties: {role: outlined-card}
     type: ColumnPanel
     layout_properties: {grid_position: 'RQQTVN,STWIAD SVZIMB,CQLOFV'}
     components:
-    - name: contracts_u4_t4_link
+    - name: realp_u3_t4_link
       properties: {}
       type: Link
       layout_properties: {grid_position: 'CLIAMX,SEAAFI'}
-  - name: contracts_u4_t6
+  - name: realp_u3_t6
     properties: {role: outlined-card}
     type: ColumnPanel
     layout_properties: {grid_position: 'RQQTVN,STWIAD TKVEGY,QGPCTO'}
     components:
-    - name: contracts_u4_t6_link
+    - name: realp_u3_t6_link
       properties: {}
       type: Link
       layout_properties: {grid_position: 'VNDBVO,VGCCSX'}
-  - name: contracts_u4_t8
+  - name: realp_u3_practice
     properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'RQQTVN,STWIAD MIFTBW,RUEFYR'}
+    layout_properties: {grid_position: 'RQQTVN,STWIAD CAEGWS,EQWCLD'}
     components:
-    - name: contracts_u4_t8_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'YDVUFC,JNZDEW'}
-  - name: contracts_u4_practice
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'IQDGBD,WQOVDP'}
-    components:
-    - name: contracts_u4_practice_link
+    - name: realp_u3_practice_link
       properties: {}
       type: Link
       layout_properties: {grid_position: 'BMFJIX,WMTSTX'}
-- name: contracts_u6
+- name: realp_u2
   properties: {role: outlined-card}
   type: ColumnPanel
-  layout_properties: {grid_position: 'HYUJVL,MIXCWL EQWBPY,YFEUST'}
+  layout_properties: {grid_position: 'HYUJVL,MIXCWL QIJCDO,IPHZBL'}
   components:
-  - name: contracts_u6_label
-    properties: {text: Third Party Rights, align: center}
+  - name: realp_u2_label
+    properties: {text: Rights in Real Property, align: center}
     type: Label
-    layout_properties: {grid_position: 'QKICWC,OTCILP'}
-  - name: contracts_u6_t1
+    layout_properties: {grid_position: 'UQTNEV,UUWGXG'}
+  - name: realp_u2_t1
     properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'RNXOPR,JLFDKJ'}
+    layout_properties: {grid_position: 'SUOGYR,BRLXSC EGOPCY,BLBTOJ'}
     components:
-    - name: contracts_u6_t1_link
+    - name: realp_u2_t1_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'DAQFXL,BMMLJM'}
+  - name: realp_u2_t3
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'SUOGYR,BRLXSC AQOIXP,XQTQNG'}
+    components:
+    - name: realp_u2_t3_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'AUUODK,SFAPFT'}
+  - name: realp_u2_t2
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'SUOGYR,OZOHFA JIHSUA,XZYIHN'}
+    components:
+    - name: realp_u2_t2_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'GQPZIH,EXLVTV'}
+  - name: realp_u2_t4
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'SUOGYR,OZOHFA DHUPQE,CDAEZP'}
+    components:
+    - name: realp_u2_t4_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'XKPOWB,BQRSGE'}
+  - name: realp_u2_practice
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'CNPMUK,XZBQSW'}
+    components:
+    - name: realp_u2_practice_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'ALQKSD,WSYOWX'}
+- name: realp_u4
+  properties: {role: outlined-card}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'HYUJVL,MIXCWL KBHEPE,EYGXMD'}
+  components:
+  - name: realp_u4_label
+    properties: {text: Mortgage/Security Devices, align: center}
+    type: Label
+    layout_properties: {grid_position: 'DNOUNG,STZVHA'}
+  - name: realp_u4_t1
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'HAWPNK,VWCIFM FWAJMI,BDPZUE'}
+    components:
+    - name: realp_u4_t1_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'KJWTJZ,WSEOQV'}
+  - name: realp_u4_t3
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'HAWPNK,VWCIFM IJQIUT,WRMPIN'}
+    components:
+    - name: realp_u4_t3_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'JXZXRW,NWOHMU'}
+  - name: realp_u4_t2
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'HAWPNK,ZBKXEN BVBPHQ,FXNGRT'}
+    components:
+    - name: realp_u4_t2_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'OSYNFU,RBMLXW'}
+  - name: realp_u4_t4
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'HAWPNK,ZBKXEN OSMIOT,ZKCQDN'}
+    components:
+    - name: realp_u4_t4_link
       properties: {}
       type: Link
       layout_properties: {grid_position: 'FPMRED,LVLEKU'}
-  - name: contracts_u6_t2
+  - name: realp_u4_practice
     properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'RNXOPR,FUTZFS'}
+    layout_properties: {grid_position: 'WPTFPT,CQPIFK'}
     components:
-    - name: contracts_u6_t2_link
+    - name: realp_u4_practice_link
       properties: {}
       type: Link
-      layout_properties: {grid_position: 'ZOTVJU,THZMGN'}
-  - name: contracts_u6_practice
+      layout_properties: {grid_position: 'HJQCXD,TVIQEO'}
+- name: realp_u5
+  properties: {role: outlined-card}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'HYUJVL,MIXCWL RWQDEE,BKCQKI'}
+  components:
+  - name: realp_u5_label
+    properties: {text: Titles, align: center}
+    type: Label
+    layout_properties: {grid_position: 'DHCLTV,LDCPVI'}
+  - name: realp_u5_t1
     properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'RNXOPR,GJZOXF'}
+    layout_properties: {grid_position: 'SSOKGX,ABSTHD BRLRLN,BCSGWZ'}
     components:
-    - name: contracts_u6_practice_link
+    - name: realp_u5_t1_link
       properties: {}
       type: Link
-      layout_properties: {grid_position: 'VPLHZU,SVSCDG'}
-- name: contracts_quiz
+      layout_properties: {grid_position: 'EZPNIC,JUPFXR'}
+  - name: realp_u5_t3
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'SSOKGX,ABSTHD AQMCEA,LORCDT'}
+    components:
+    - name: realp_u5_t3_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'ICYLXO,UAUUSM'}
+  - name: realp_u5_t5
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'SSOKGX,ABSTHD YUODYZ,PEVYHD'}
+    components:
+    - name: realp_u5_t5_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'HOGLHN,THMYKB'}
+  - name: realp_u5_t2
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'SSOKGX,VLLQPQ IQSQBA,NZPWEA'}
+    components:
+    - name: realp_u5_t2_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'UPEOWZ,CRRIKG'}
+  - name: realp_u5_t4
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'SSOKGX,VLLQPQ GKHNFO,TUYGPO'}
+    components:
+    - name: realp_u5_t4_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'VIOWDF,SYHEBF'}
+  - name: realp_u5_practice
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'SSOKGX,VLLQPQ ADIWPM,NLDHBB'}
+    components:
+    - name: realp_u5_practice_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'GYLTWI,MEIHZM'}
+- name: realp_quiz
   properties: {role: outlined-card}
   type: ColumnPanel
   layout_properties: {grid_position: 'AZMGNA,GISDEW'}
   components:
-  - name: contracts_quiz_link
+  - name: realp_quiz_link
     properties: {}
     type: Link
     layout_properties: {grid_position: 'ZXIESM,GOWJSO'}
