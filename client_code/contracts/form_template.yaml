@@ -1,575 +1,412 @@
 container: {type: ColumnPanel}
 components:
+- name: contracts_title
+  properties: {align: center, text: Contracts}
+  type: Label
+  layout_properties: {grid_position: 'AVJXXY,DQMMVI'}
 - name: contracts_u1
-  properties: {}
+  properties: {role: outlined-card}
   type: ColumnPanel
-  layout_properties: {grid_position: 'IBSNTI,XCBPPJ RGGKGC,WCTYGK'}
+  layout_properties: {grid_position: 'HYUJVL,TXGAZU KPMOVG,IVXHDN'}
   components:
   - name: contracts_u1_label
     properties: {text: Formation of Contracts, align: center}
     type: Label
-    layout_properties: {grid_position: 'XOILBU,EDXNHR'}
+    layout_properties: {grid_position: 'DZQFCB,YNTEZY'}
   - name: contracts_u1_t1
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'OGUQAE,CJSAGM IHEKDZ,UWAHIA'}
+    layout_properties: {grid_position: 'UWZZTU,DJCUUM VWUGJC,FZHUVJ'}
     components:
     - name: contracts_u1_t1_link
       properties: {}
       type: Link
-      layout_properties: {grid_position: 'UWQPXZ,FTMZMD'}
-    - name: progress_bar_1
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'NQVSVP,RWGJUU'}
+      layout_properties: {grid_position: 'YQYGMF,VPZXWN'}
   - name: contracts_u1_t3
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'OGUQAE,CJSAGM PPSXHQ,UYUIXT'}
+    layout_properties: {grid_position: 'UWZZTU,DJCUUM HOXBOY,QLDIDO'}
     components:
     - name: contracts_u1_t3_link
       properties: {}
       type: Link
-      layout_properties: {grid_position: 'GKYTXI,BNHUMP'}
-    - name: progress_bar_3
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'WGZFJO,OUARPQ'}
+      layout_properties: {grid_position: 'CAQWJI,BMFHQN'}
   - name: contracts_u1_t5
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'OGUQAE,CJSAGM QUYGER,OPFOFF'}
+    layout_properties: {grid_position: 'UWZZTU,DJCUUM ZKYMIZ,GNGNVV'}
     components:
     - name: contracts_u1_t5_link
       properties: {}
       type: Link
-      layout_properties: {grid_position: 'SVYCNW,MFLQQO'}
-    - name: progress_bar_5
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'EWWYBF,GCZKOJ'}
+      layout_properties: {grid_position: 'QOCJNV,NNWOEX'}
   - name: contracts_u1_t2
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'OGUQAE,WSLUBM UQGNTX,PXHJWF'}
+    layout_properties: {grid_position: 'UWZZTU,ANQQSF SIEEGU,CITVKI'}
     components:
     - name: contracts_u1_t2_link
       properties: {}
       type: Link
-      layout_properties: {grid_position: 'BHKYKG,JAJCIP'}
-    - name: progress_bar_2
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'ZRPDYU,KWPIAZ'}
+      layout_properties: {grid_position: 'UKRWDC,KUGZVJ'}
   - name: contracts_u1_t4
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'OGUQAE,WSLUBM FVWVMX,GWFVHA'}
+    layout_properties: {grid_position: 'UWZZTU,ANQQSF BLEVZQ,DBBEYO'}
     components:
     - name: contracts_u1_t4_link
       properties: {}
       type: Link
-      layout_properties: {grid_position: 'ZJHHMH,BAPEEP'}
-    - name: progress_bar_4
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'AULAFO,SBPKKK'}
+      layout_properties: {grid_position: 'PLAYNQ,DHQAUP'}
   - name: contracts_u1_practice
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'OGUQAE,WSLUBM ZHSHNP,MQMVYK'}
+    layout_properties: {grid_position: 'UWZZTU,ANQQSF YQUECQ,IGZVOV'}
     components:
     - name: contracts_u1_practice_link
       properties: {}
       type: Link
-      layout_properties: {grid_position: 'NFJAIC,XHQEFV'}
-    - name: progress_bar_34
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'YQPHVC,SQQFCX'}
-  - name: progress_bar_39
-    properties: {}
-    type: form:progress_bar
-    layout_properties: {grid_position: 'IMGDRJ,QWIEJD'}
+      layout_properties: {grid_position: 'SSRQRG,RIMLFX'}
 - name: contracts_u3
-  properties: {}
+  properties: {role: outlined-card}
   type: ColumnPanel
-  layout_properties: {grid_position: 'IBSNTI,XCBPPJ HIWCLD,DKHKXC'}
+  layout_properties: {grid_position: 'HYUJVL,TXGAZU MDDQPD,KUPRFB'}
   components:
   - name: contracts_u3_label
     properties: {text: Contract Content and Meaning, align: center}
     type: Label
-    layout_properties: {grid_position: 'PLHTHQ,PHILMO'}
+    layout_properties: {grid_position: 'DNOUNG,STZVHA'}
   - name: contracts_u3_t1
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'QPZUUF,KZXVZQ FJPGNY,UAKDGD'}
+    layout_properties: {grid_position: 'HAWPNK,VWCIFM FWAJMI,BDPZUE'}
     components:
-    - name: contracts_u3_t1_label
+    - name: contracts_u3_t1_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'ZRFAID,IDQHAA'}
-    - name: progress_bar_6
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'DIJRYS,ULPJXZ'}
+      type: Link
+      layout_properties: {grid_position: 'KJWTJZ,WSEOQV'}
   - name: contracts_u3_t3
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'QPZUUF,KZXVZQ SSEOSD,TESEVY'}
+    layout_properties: {grid_position: 'HAWPNK,VWCIFM IJQIUT,WRMPIN'}
     components:
-    - name: contracts_u3_t3_label
+    - name: contracts_u3_t3_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'CSCIQK,ITWQRP'}
-    - name: progress_bar_14
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'SIUYUL,PDTPTH'}
+      type: Link
+      layout_properties: {grid_position: 'JXZXRW,NWOHMU'}
   - name: contracts_u3_t2
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'QPZUUF,DJEMNC ERKQQE,TGYVIU'}
+    layout_properties: {grid_position: 'HAWPNK,ZBKXEN BVBPHQ,FXNGRT'}
     components:
-    - name: contracts_u3_t2_label
+    - name: contracts_u3_t2_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'GVNASE,BGWPIW'}
-    - name: progress_bar_13
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'JEJVDN,UTAYVT'}
+      type: Link
+      layout_properties: {grid_position: 'OSYNFU,RBMLXW'}
   - name: contracts_u3_practice
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'QPZUUF,DJEMNC FPMICB,WBOJLY'}
+    layout_properties: {grid_position: 'HAWPNK,ZBKXEN BEACTA,ZRKDSM'}
     components:
-    - name: contracts_u3_practice_label
+    - name: contracts_u3_practice_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'GFSXBM,ABTBAV'}
-    - name: progress_bar_15
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'HJKFVP,AJWXKN'}
-  - name: progress_bar_41
-    properties: {}
-    type: form:progress_bar
-    layout_properties: {grid_position: 'BYXZNB,EHVAJI'}
+      type: Link
+      layout_properties: {grid_position: 'HJQCXD,TVIQEO'}
 - name: contracts_u5
-  properties: {}
+  properties: {role: outlined-card}
   type: ColumnPanel
-  layout_properties: {grid_position: 'IBSNTI,XCBPPJ JGWHGC,GZVOFV'}
+  layout_properties: {grid_position: 'HYUJVL,TXGAZU IRKVZD,XMWPEJ'}
   components:
   - name: contracts_u5_label
     properties: {text: Remedies, align: center}
     type: Label
-    layout_properties: {grid_position: 'QYTBLO,QDZDNQ'}
+    layout_properties: {grid_position: 'DHCLTV,LDCPVI'}
   - name: contracts_u5_t1
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'KMDAHN,SKKKLX VXDCMO,VWWKJF'}
+    layout_properties: {grid_position: 'SSOKGX,ABSTHD BRLRLN,BCSGWZ'}
     components:
-    - name: contracts_u5_t1_label
+    - name: contracts_u5_t1_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'KTTOEK,DJQJHX'}
-    - name: progress_bar_16
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'CASZFK,NVVAYR'}
+      type: Link
+      layout_properties: {grid_position: 'EZPNIC,JUPFXR'}
   - name: contracts_u5_t3
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'KMDAHN,SKKKLX WJPBQI,VIOVIB'}
+    layout_properties: {grid_position: 'SSOKGX,ABSTHD AQMCEA,LORCDT'}
     components:
-    - name: contracts_u5_t3_label
+    - name: contracts_u5_t3_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'AKAEHD,ZYPVHP'}
-    - name: progress_bar_18
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'IBSBQR,GTVVQW'}
+      type: Link
+      layout_properties: {grid_position: 'ICYLXO,UAUUSM'}
   - name: contracts_u5_t5
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'KMDAHN,SKKKLX WQQPSM,VAKWRZ'}
+    layout_properties: {grid_position: 'SSOKGX,ABSTHD YUODYZ,PEVYHD'}
     components:
-    - name: contracts_u5_t5_label
+    - name: contracts_u5_t5_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'RQIRHR,EOEAFO'}
-    - name: progress_bar_20
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'CWSCOD,XQSYZS'}
+      type: Link
+      layout_properties: {grid_position: 'HOGLHN,THMYKB'}
   - name: contracts_u5_t7
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'KMDAHN,SKKKLX UHHOPH,GMIJMK'}
+    layout_properties: {grid_position: 'SSOKGX,ABSTHD GLQDCZ,TWVLNX'}
     components:
-    - name: contracts_u5_t7_label
+    - name: contracts_u5_t7_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'PLUMEB,VJQSQT'}
-    - name: progress_bar_22
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'DQUNFN,TZFTKD'}
+      type: Link
+      layout_properties: {grid_position: 'VYCGCD,YJDCKY'}
   - name: contracts_u5_t2
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'KMDAHN,IHNPQQ GEWMHQ,AXMUPM'}
+    layout_properties: {grid_position: 'SSOKGX,VLLQPQ IQSQBA,NZPWEA'}
     components:
-    - name: contracts_u5_t2_label
+    - name: contracts_u5_t2_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'KXSYIL,ZGVMLM'}
-    - name: progress_bar_17
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'XDAVZM,YZQJTG'}
+      type: Link
+      layout_properties: {grid_position: 'UPEOWZ,CRRIKG'}
   - name: contracts_u5_t4
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'KMDAHN,IHNPQQ TBQRKC,QDOXEM'}
+    layout_properties: {grid_position: 'SSOKGX,VLLQPQ GKHNFO,TUYGPO'}
     components:
-    - name: contracts_u5_t4_label
+    - name: contracts_u5_t4_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'UYNKBM,QBXLIR'}
-    - name: progress_bar_19
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'SYDPCP,SVUMMC'}
+      type: Link
+      layout_properties: {grid_position: 'VIOWDF,SYHEBF'}
   - name: contracts_u5_t6
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'KMDAHN,IHNPQQ MUFPOL,FLFUQZ'}
+    layout_properties: {grid_position: 'SSOKGX,VLLQPQ NSWIRH,GNBQMR'}
     components:
-    - name: contracts_u5_t6_label
+    - name: contracts_u5_t6_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'DGWGKO,XBTXHV'}
-    - name: progress_bar_21
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'RSVLLD,DHGJFW'}
+      type: Link
+      layout_properties: {grid_position: 'NHJLKF,KDXRMX'}
   - name: contracts_u5_t8
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'KMDAHN,IHNPQQ WRCNNJ,DOTPUM'}
+    layout_properties: {grid_position: 'SSOKGX,VLLQPQ RUAELK,QJSXPI'}
     components:
-    - name: contracts_u5_t8_label
+    - name: contracts_u5_t8_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'AHAAVQ,UNDRHF'}
-    - name: progress_bar_23
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'QBSFVC,HYQEOZ'}
+      type: Link
+      layout_properties: {grid_position: 'GKNDBA,VSYWEX'}
   - name: contracts_u5_practice
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'WTRYAN,UVFQEM'}
+    layout_properties: {grid_position: 'FONYIB,GOXENM'}
     components:
-    - name: contracts_u5_practice_label
+    - name: contracts_u5_practice_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'DWTEXI,ZEOEIG'}
-    - name: progress_bar_38
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'NKEVRU,NGBUKN'}
-  - name: progress_bar_43
-    properties: {}
-    type: form:progress_bar
-    layout_properties: {grid_position: 'RBXTUZ,OEURAU'}
+      type: Link
+      layout_properties: {grid_position: 'GYLTWI,MEIHZM'}
 - name: contracts_u2
-  properties: {}
+  properties: {role: outlined-card}
   type: ColumnPanel
-  layout_properties: {grid_position: 'IBSNTI,YLPOLV SXKJUJ,SJZPBY'}
+  layout_properties: {grid_position: 'HYUJVL,MIXCWL QIJCDO,IPHZBL'}
   components:
   - name: contracts_u2_label
     properties: {text: Defenses to Enforceability, align: center}
     type: Label
-    layout_properties: {grid_position: 'QBCVAZ,BZBQZS'}
+    layout_properties: {grid_position: 'UQTNEV,UUWGXG'}
   - name: contracts_u2_t1
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'JESNEF,LSWLLK YQKJKE,IXTWCY'}
+    layout_properties: {grid_position: 'SUOGYR,BRLXSC EGOPCY,BLBTOJ'}
     components:
     - name: contracts_u2_t1_link
       properties: {}
       type: Link
-      layout_properties: {grid_position: 'XVBSCX,CFEPKL'}
-    - name: progress_bar_7
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'PYKWJH,MPJBWS'}
+      layout_properties: {grid_position: 'DAQFXL,BMMLJM'}
   - name: contracts_u2_t3
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'JESNEF,LSWLLK DDHLNJ,PDCKCK'}
+    layout_properties: {grid_position: 'SUOGYR,BRLXSC AQOIXP,XQTQNG'}
     components:
     - name: contracts_u2_t3_link
       properties: {}
       type: Link
-      layout_properties: {grid_position: 'FHRLQF,DAENDT'}
-    - name: progress_bar_9
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'AACGPO,XQGFKA'}
+      layout_properties: {grid_position: 'AUUODK,SFAPFT'}
   - name: contracts_u2_t5
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'JESNEF,LSWLLK LDFKKR,JHJFCO'}
+    layout_properties: {grid_position: 'SUOGYR,BRLXSC STTRUB,NDJXVJ'}
     components:
     - name: contracts_u2_t5_link
       properties: {}
       type: Link
-      layout_properties: {grid_position: 'MTOHWO,TEPXNO'}
-    - name: progress_bar_11
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'COZIHR,SICUZZ'}
+      layout_properties: {grid_position: 'SAVPIS,ELITHX'}
   - name: contracts_u2_t2
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'JESNEF,IYZKZN FNHESX,KEJXQZ'}
+    layout_properties: {grid_position: 'SUOGYR,OZOHFA JIHSUA,XZYIHN'}
     components:
     - name: contracts_u2_t2_link
       properties: {}
       type: Link
-      layout_properties: {grid_position: 'GVWTNZ,CZKSXY'}
-    - name: progress_bar_8
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'IFWRCT,NZJIJK'}
+      layout_properties: {grid_position: 'GQPZIH,EXLVTV'}
   - name: contracts_u2_t4
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'JESNEF,IYZKZN PWZMFU,VLPYKI'}
+    layout_properties: {grid_position: 'SUOGYR,OZOHFA DHUPQE,CDAEZP'}
     components:
     - name: contracts_u2_t4_link
       properties: {}
       type: Link
-      layout_properties: {grid_position: 'NGZPCS,XIFLQD'}
-    - name: progress_bar_10
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'VODRHN,ZWKBVQ'}
+      layout_properties: {grid_position: 'XKPOWB,BQRSGE'}
   - name: contracts_u2_t6
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'JESNEF,IYZKZN QXPRWT,DOQXMC'}
+    layout_properties: {grid_position: 'SUOGYR,OZOHFA XNDFAJ,YHYWBW'}
     components:
     - name: contracts_u2_t6_link
       properties: {}
       type: Link
-      layout_properties: {grid_position: 'LAEPXP,QTPZSJ PMJLHH,DSMNLU'}
-    - name: progress_bar_12
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'UKUMTK,UTNFAR'}
+      layout_properties: {grid_position: 'THARHG,UYJCXQ'}
   - name: contracts_u2_practice
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'OSFIFP,ZBWCEL', full_width_row: false}
+    layout_properties: {grid_position: 'CNPMUK,XZBQSW'}
     components:
-    - name: progress_bar_35
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'FLRGDZ,RVPKEC'}
-    - name: contracts_u2_t1_link_copy_5
+    - name: contracts_u2_practice_link
       properties: {}
       type: Link
-      layout_properties: {grid_position: 'FLRGDZ,YCGBZT'}
-  - name: progress_bar_40
-    properties: {}
-    type: form:progress_bar
-    layout_properties: {grid_position: 'ZXRYEC,ZDYYTJ'}
+      layout_properties: {grid_position: 'ALQKSD,WSYOWX'}
 - name: contracts_u4
-  properties: {}
+  properties: {role: outlined-card}
   type: ColumnPanel
-  layout_properties: {grid_position: 'IBSNTI,YLPOLV AKIAZA,TDCSAH'}
+  layout_properties: {grid_position: 'HYUJVL,MIXCWL ZSHSEB,BPSRCZ'}
   components:
   - name: contracts_u4_label
     properties: {text: 'Performance, Breach, and Discharge', align: center}
     type: Label
-    layout_properties: {grid_position: 'KQNIYA,COHMFF'}
+    layout_properties: {grid_position: 'UUKQWF,STBPRS'}
   - name: contracts_u4_t1
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'PXGUBE,HTQBUS BJIBPA,MFUMFH'}
+    layout_properties: {grid_position: 'RQQTVN,CTQJWD CCWCEH,PFPMCR'}
     components:
-    - name: contracts_u4_t1_label
+    - name: contracts_u4_t1_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'CTNPIX,BGCLJS'}
-    - name: progress_bar_24
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'XMEFGN,YCNVEW'}
+      type: Link
+      layout_properties: {grid_position: 'ZALUEL,CEGIFI'}
   - name: contracts_u4_t3
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'PXGUBE,HTQBUS SFIFZP,QHODLJ'}
+    layout_properties: {grid_position: 'RQQTVN,CTQJWD UQZKCD,JGCHIW'}
     components:
-    - name: contracts_u4_t3_label
+    - name: contracts_u4_t3_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'HTBIIO,MSOKGR'}
-    - name: progress_bar_26
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'EMLKWM,OJWYOF'}
+      type: Link
+      layout_properties: {grid_position: 'BDYSDL,FUIHHD'}
   - name: contracts_u4_t5
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'PXGUBE,HTQBUS XOCEAH,PLBECP'}
+    layout_properties: {grid_position: 'RQQTVN,CTQJWD OWUIJB,TVEEEU'}
     components:
-    - name: contracts_u4_t5_label
+    - name: contracts_u4_t5_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'USMPBQ,WCUFHM'}
-    - name: progress_bar_28
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'UDDLCB,XUPKHO'}
+      type: Link
+      layout_properties: {grid_position: 'EZZUPD,XSMEPM'}
   - name: contracts_u4_t7
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'PXGUBE,HTQBUS FKMXAP,ZMNBPL'}
+    layout_properties: {grid_position: 'RQQTVN,CTQJWD SDGNMC,TPEEKH'}
     components:
-    - name: contracts_u4_t7_label
+    - name: contracts_u4_t7_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'DFDWAV,YYPFLA'}
-    - name: progress_bar_30
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'RRPMYX,RCXJND'}
+      type: Link
+      layout_properties: {grid_position: 'PVEBGY,UZJGLN'}
   - name: contracts_u4_t2
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'PXGUBE,KSXKCP ONHEBE,ZNGVQD'}
+    layout_properties: {grid_position: 'RQQTVN,STWIAD NMAHPV,QHYZWR'}
     components:
-    - name: contracts_u4_t2_label
+    - name: contracts_u4_t2_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'VFTQZN,XIEFQD'}
-    - name: progress_bar_25
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'KOQVZA,OTARIQ'}
+      type: Link
+      layout_properties: {grid_position: 'AXIJKB,CMXWVH'}
   - name: contracts_u4_t4
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'PXGUBE,KSXKCP SHDWAS,RITSDV'}
+    layout_properties: {grid_position: 'RQQTVN,STWIAD SVZIMB,CQLOFV'}
     components:
-    - name: contracts_u4_t4_label
+    - name: contracts_u4_t4_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'XRLLGF,LAPHRL'}
-    - name: progress_bar_27
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'FOJIDS,DJFFAG'}
+      type: Link
+      layout_properties: {grid_position: 'CLIAMX,SEAAFI'}
   - name: contracts_u4_t6
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'PXGUBE,KSXKCP GLYUJY,CJSIEK'}
+    layout_properties: {grid_position: 'RQQTVN,STWIAD TKVEGY,QGPCTO'}
     components:
-    - name: contracts_u4_t6_label
+    - name: contracts_u4_t6_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'AIDRHN,TIADLL'}
-    - name: progress_bar_29
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'FQJGJT,UTOTCZ'}
+      type: Link
+      layout_properties: {grid_position: 'VNDBVO,VGCCSX'}
   - name: contracts_u4_t8
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'PXGUBE,KSXKCP UJWSZU,YZRTPZ'}
+    layout_properties: {grid_position: 'RQQTVN,STWIAD MIFTBW,RUEFYR'}
     components:
-    - name: contracts_u4_t8_label
+    - name: contracts_u4_t8_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'UJBGQU,LZMRDQ'}
-    - name: progress_bar_31
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'AFDPTW,VIBRSF'}
+      type: Link
+      layout_properties: {grid_position: 'YDVUFC,JNZDEW'}
   - name: contracts_u4_practice
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'IYKWWC,TNZANK'}
+    layout_properties: {grid_position: 'IQDGBD,WQOVDP'}
     components:
-    - name: contracts_u4_practice_label
+    - name: contracts_u4_practice_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'WGDZGB,IXFVCX'}
-    - name: progress_bar_37
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'CRRVJQ,OULIEW'}
-  - name: progress_bar_42
-    properties: {}
-    type: form:progress_bar
-    layout_properties: {grid_position: 'JZXSZL,FRKKFJ'}
+      type: Link
+      layout_properties: {grid_position: 'BMFJIX,WMTSTX'}
 - name: contracts_u6
-  properties: {}
+  properties: {role: outlined-card}
   type: ColumnPanel
-  layout_properties: {grid_position: 'IBSNTI,YLPOLV PXGIBI,FYGXNA'}
+  layout_properties: {grid_position: 'HYUJVL,MIXCWL EQWBPY,YFEUST'}
   components:
   - name: contracts_u6_label
     properties: {text: Third Party Rights, align: center}
     type: Label
-    layout_properties: {grid_position: 'WHPTIR,SPOINV'}
+    layout_properties: {grid_position: 'QKICWC,OTCILP'}
   - name: contracts_u6_t1
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'PFZEWH,BRYKKF'}
+    layout_properties: {grid_position: 'RNXOPR,JLFDKJ'}
     components:
-    - name: contracts_u6_t1_label
+    - name: contracts_u6_t1_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'QOCNPY,IUQHFA'}
-    - name: progress_bar_32
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'KWIIEA,ZRMSOJ'}
-  - name: contracts_u6_practice
-    properties: {}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'PFZEWH,VDAQLX'}
-    components:
-    - name: contracts_u6_practice_label
-      properties: {}
-      type: Label
-      layout_properties: {grid_position: 'GVPDUJ,HQYOTL'}
-    - name: progress_bar_45
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'GHFUER,ONGECF'}
+      type: Link
+      layout_properties: {grid_position: 'FPMRED,LVLEKU'}
   - name: contracts_u6_t2
-    properties: {}
+    properties: {role: outlined-card}
     type: ColumnPanel
-    layout_properties: {grid_position: 'PFZEWH,VNNBAO'}
+    layout_properties: {grid_position: 'RNXOPR,FUTZFS'}
     components:
-    - name: contracts_u6_t2_label
+    - name: contracts_u6_t2_link
       properties: {}
-      type: Label
-      layout_properties: {grid_position: 'NXLGRO,JYLAMQ'}
-    - name: progress_bar_33
+      type: Link
+      layout_properties: {grid_position: 'ZOTVJU,THZMGN'}
+  - name: contracts_u6_practice
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'RNXOPR,GJZOXF'}
+    components:
+    - name: contracts_u6_practice_link
       properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'RKRVDX,SYMKLV'}
-  - name: progress_bar_36
+      type: Link
+      layout_properties: {grid_position: 'VPLHZU,SVSCDG'}
+- name: contracts_quiz
+  properties: {role: outlined-card}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'AZMGNA,GISDEW'}
+  components:
+  - name: contracts_quiz_link
     properties: {}
-    type: form:progress_bar
-    layout_properties: {grid_position: 'GGQZUX,EAYOQK'}
+    type: Link
+    layout_properties: {grid_position: 'ZXIESM,GOWJSO'}
 is_package: true

@@ -1,3 +1,376 @@
 container: {type: ColumnPanel}
-components: []
+components:
+- name: civprocedure_title
+  properties: {align: center, text: Civil Procedure}
+  type: Label
+  layout_properties: {grid_position: 'AVJXXY,DQMMVI'}
+- name: civprocedure_u1
+  properties: {role: outlined-card}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'HYUJVL,TXGAZU KPMOVG,IVXHDN'}
+  components:
+  - name: civprocedure_u1_label
+    properties: {text: Jurisdiction and Venue, align: center}
+    type: Label
+    layout_properties: {grid_position: 'DZQFCB,YNTEZY'}
+  - name: civprocedure_u1_t1
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'UWZZTU,DJCUUM VWUGJC,FZHUVJ'}
+    components:
+    - name: contracts_u1_t1_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'YQYGMF,VPZXWN'}
+  - name: civprocedure_u1_t3
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'UWZZTU,DJCUUM HOXBOY,QLDIDO'}
+    components:
+    - name: contracts_u1_t3_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'CAQWJI,BMFHQN'}
+  - name: civprocedure_u1_t2
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'UWZZTU,ANQQSF SIEEGU,CITVKI'}
+    components:
+    - name: contracts_u1_t2_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'UKRWDC,KUGZVJ'}
+  - name: civprocedure_u1_t4
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'UWZZTU,ANQQSF BLEVZQ,DBBEYO'}
+    components:
+    - name: contracts_u1_t4_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'PLAYNQ,DHQAUP'}
+  - name: civprocedure_u1_practice
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'SCCHNC,FBIYZU'}
+    components:
+    - name: contracts_u1_practice_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'SSRQRG,RIMLFX'}
+- name: civprocedure_u3
+  properties: {role: outlined-card}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'HYUJVL,TXGAZU MDDQPD,KUPRFB'}
+  components:
+  - name: civprocedure_u3_label
+    properties: {text: Pretrial Procedures, align: center}
+    type: Label
+    layout_properties: {grid_position: 'DNOUNG,STZVHA'}
+  - name: civprocedure_u3_t1
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'HAWPNK,VWCIFM FWAJMI,BDPZUE'}
+    components:
+    - name: contracts_u3_t1_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'KJWTJZ,WSEOQV'}
+  - name: civprocedure_u3_t3
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'HAWPNK,VWCIFM TTGGHC,NNKPAE'}
+    components:
+    - name: contracts_u3_practice_link_copy_2_copy
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'HJQCXD,TVIQEO'}
+  - name: civprocedure_u3_t5
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'HAWPNK,VWCIFM EISVST,VOJGMY'}
+    components:
+    - name: contracts_u3_practice_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'HJQCXD,TVIQEO'}
+  - name: civprocedure_u3_t7
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'HAWPNK,VWCIFM BKZKWV,CQRIVI'}
+    components:
+    - name: contracts_u3_practice_link_copy_2
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'HJQCXD,TVIQEO'}
+  - name: civprocedure_u3_t2
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'HAWPNK,ZBKXEN BVBPHQ,FXNGRT'}
+    components:
+    - name: contracts_u3_t2_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'OSYNFU,RBMLXW'}
+  - name: civprocedure_u3_t4
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'HAWPNK,ZBKXEN BEACTA,FXJDCZ'}
+    components:
+    - name: contracts_u3_practice_link_copy
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'HJQCXD,TVIQEO'}
+  - name: civprocedure_u3_t6
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'HAWPNK,ZBKXEN QAPEXQ,MPLZTT'}
+    components:
+    - name: contracts_u3_t3_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'JXZXRW,NWOHMU'}
+  - name: contracts_u3_practice_copy_2_copy_2
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'HAWPNK,ZBKXEN HYKVKP,PEQEII'}
+    components:
+    - name: contracts_u3_practice_link_copy_2_copy_2
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'HJQCXD,TVIQEO'}
+- name: civprocedure_u6
+  properties: {role: outlined-card}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'HYUJVL,TXGAZU IRKVZD,XMWPEJ'}
+  components:
+  - name: civprocedure_u6_label
+    properties: {text: Motions, align: center}
+    type: Label
+    layout_properties: {grid_position: 'DHCLTV,LDCPVI'}
+  - name: contracts_u5_t1
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'SSOKGX,ABSTHD BRLRLN,BCSGWZ'}
+    components:
+    - name: contracts_u5_t1_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'EZPNIC,JUPFXR'}
+  - name: contracts_u5_t3
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'SSOKGX,ABSTHD AQMCEA,LORCDT'}
+    components:
+    - name: contracts_u5_t3_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'ICYLXO,UAUUSM'}
+  - name: contracts_u5_t2
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'SSOKGX,VLLQPQ FKMCAU,MNWTSW'}
+    components:
+    - name: contracts_u5_t2_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'UPEOWZ,CRRIKG'}
+  - name: contracts_u5_practice
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'SSOKGX,VLLQPQ RPPCUC,ZBLLCR'}
+    components:
+    - name: contracts_u5_practice_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'GYLTWI,MEIHZM'}
+- name: civprocedure_u2
+  properties: {role: outlined-card}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'HYUJVL,MIXCWL QIJCDO,IPHZBL'}
+  components:
+  - name: civprocedure_u2_label
+    properties: {text: Law Applied by Federal Courts, align: center}
+    type: Label
+    layout_properties: {grid_position: 'UQTNEV,UUWGXG'}
+  - name: civprocedure_u2_t1
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'SUOGYR,BRLXSC EGOPCY,BLBTOJ'}
+    components:
+    - name: contracts_u2_t1_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'DAQFXL,BMMLJM'}
+  - name: civprocedure_u2_t2
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'SUOGYR,OZOHFA'}
+    components:
+    - name: contracts_u2_t2_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'GQPZIH,EXLVTV'}
+  - name: civprocedure_u2_practice
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'CNPMUK,XZBQSW'}
+    components:
+    - name: contracts_u2_practice_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'ALQKSD,WSYOWX'}
+- name: civprocedure_u4
+  properties: {role: outlined-card}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'HYUJVL,MIXCWL ZSHSEB,BPSRCZ'}
+  components:
+  - name: civprocedure_u4_label
+    properties: {text: Jury Trials, align: center}
+    type: Label
+    layout_properties: {grid_position: 'UUKQWF,STBPRS'}
+  - name: contracts_u4_t1
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'RQQTVN,CTQJWD CCWCEH,PFPMCR'}
+    components:
+    - name: contracts_u4_t1_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'ZALUEL,CEGIFI'}
+  - name: contracts_u4_t3
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'RQQTVN,CTQJWD UQZKCD,JGCHIW'}
+    components:
+    - name: contracts_u4_t3_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'BDYSDL,FUIHHD'}
+  - name: contracts_u4_t2
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'RQQTVN,STWIAD NMAHPV,QHYZWR'}
+    components:
+    - name: contracts_u4_t2_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'AXIJKB,CMXWVH'}
+  - name: contracts_u4_practice
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'RQQTVN,STWIAD SOWMZQ,SYYQCA'}
+    components:
+    - name: contracts_u4_practice_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'BMFJIX,WMTSTX'}
+- name: civprocedure_u5
+  properties: {role: outlined-card}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'HYUJVL,MIXCWL EQWBPY,YFEUST'}
+  components:
+  - name: civprocedure_u5_label
+    properties: {text: Verdicts and Judgements, align: center}
+    type: Label
+    layout_properties: {grid_position: 'QKICWC,OTCILP'}
+  - name: contracts_u6_t1
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'RNXOPR,JLFDKJ'}
+    components:
+    - name: contracts_u6_t1_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'FPMRED,LVLEKU'}
+  - name: contracts_u6_practice
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'RNXOPR,GJZOXF'}
+    components:
+    - name: contracts_u6_practice_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'VPLHZU,SVSCDG'}
+  - name: contracts_u6_t1_copy_2
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'IKMWKF,RLDXAW'}
+    components:
+    - name: contracts_u6_t1_link_copy_2
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'FPMRED,LVLEKU'}
+  - name: contracts_u6_t2
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'IKMWKF,GZGPBW'}
+    components:
+    - name: contracts_u6_t2_link
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'ZOTVJU,THZMGN'}
+  - name: contracts_u6_t2_copy_2
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'NKCSEA,HLCHUA'}
+    components:
+    - name: contracts_u6_t2_link_copy_2
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'ZOTVJU,THZMGN'}
+- name: civprocedure_u7
+  properties: {role: outlined-card}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'HYUJVL,MIXCWL EBKDWZ,DNEKWG'}
+  components:
+  - name: civprocedure_u7_label
+    properties: {text: Appealability and Review, align: center}
+    type: Label
+    layout_properties: {grid_position: 'QKICWC,OTCILP'}
+  - name: contracts_u6_t1_copy
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'RNXOPR,JLFDKJ'}
+    components:
+    - name: contracts_u6_t1_link_copy
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'FPMRED,LVLEKU'}
+  - name: contracts_u6_t2_copy
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'RNXOPR,FUTZFS'}
+    components:
+    - name: contracts_u6_t2_link_copy
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'ZOTVJU,THZMGN'}
+  - name: contracts_u6_practice_copy
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'RNXOPR,GJZOXF'}
+    components:
+    - name: contracts_u6_practice_link_copy
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'VPLHZU,SVSCDG'}
+  - name: contracts_u6_t2_copy_2_copy
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'PRYJXD,ITMCSQ'}
+    components:
+    - name: contracts_u6_t2_link_copy_2_copy
+      properties: {}
+      type: Link
+      layout_properties: {grid_position: 'ZOTVJU,THZMGN'}
+- name: contracts_quiz
+  properties: {role: outlined-card}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'AZMGNA,GISDEW'}
+  components:
+  - name: contracts_quiz_link
+    properties: {}
+    type: Link
+    layout_properties: {grid_position: 'ZXIESM,GOWJSO'}
 is_package: true
