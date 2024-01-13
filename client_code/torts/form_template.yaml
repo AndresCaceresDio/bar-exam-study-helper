@@ -19,7 +19,7 @@ components:
     layout_properties: {grid_position: 'UWZZTU,DJCUUM'}
     components:
     - name: torts_u1_t1_link
-      properties: {text: I. Harms to the Person}
+      properties: {text: I. Harms, align: center}
       type: Link
       layout_properties: {grid_position: 'YQYGMF,VPZXWN'}
     - name: torts_u1_t1_progress
@@ -32,7 +32,7 @@ components:
     layout_properties: {grid_position: 'UWZZTU,ANQQSF'}
     components:
     - name: torts_u1_t2_link
-      properties: {}
+      properties: {text: II. Defenses to Claims, align: center}
       type: Link
       layout_properties: {grid_position: 'UKRWDC,KUGZVJ'}
     - name: torts_u1_t2_progress
@@ -45,7 +45,7 @@ components:
     layout_properties: {grid_position: 'GIIQNJ,LQQDKV'}
     components:
     - name: torts_u1_practice_link
-      properties: {}
+      properties: {text: Practice, align: center}
       type: Link
       layout_properties: {grid_position: 'SSRQRG,RIMLFX'}
     - name: torts_u1_practice_progress
@@ -176,7 +176,7 @@ components:
     layout_properties: {grid_position: 'SUOGYR,BRLXSC EGOPCY,BLBTOJ'}
     components:
     - name: torts_u2_t1_link
-      properties: {}
+      properties: {text: I. Duty, align: center}
       type: Link
       layout_properties: {grid_position: 'DAQFXL,BMMLJM'}
     - name: torts_u2_t1_progress
@@ -189,7 +189,7 @@ components:
     layout_properties: {grid_position: 'SUOGYR,BRLXSC AQOIXP,XQTQNG'}
     components:
     - name: torts_u2_t3_link
-      properties: {}
+      properties: {text: III. Proof of Fault, align: center}
       type: Link
       layout_properties: {grid_position: 'AUUODK,SFAPFT'}
     - name: torts_u2_t3_progress
@@ -228,7 +228,7 @@ components:
     layout_properties: {grid_position: 'SUOGYR,OZOHFA JIHSUA,XZYIHN'}
     components:
     - name: torts_u2_t2_link
-      properties: {}
+      properties: {text: II. Standard of Care, align: center}
       type: Link
       layout_properties: {grid_position: 'GQPZIH,EXLVTV'}
     - name: torts_u2_t2_progress
