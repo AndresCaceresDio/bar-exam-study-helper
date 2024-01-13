@@ -19,7 +19,7 @@ components:
     layout_properties: {grid_position: 'UWZZTU,DJCUUM'}
     components:
     - name: torts_u1_t1_link
-      properties: {}
+      properties: {text: I. Harms to the Person}
       type: Link
       layout_properties: {grid_position: 'YQYGMF,VPZXWN'}
     - name: torts_u1_t1_progress
