@@ -306,7 +306,7 @@ components:
     layout_properties: {grid_position: 'HAWPNK,VWCIFM IBFPDC,XJCEVY'}
     components:
     - name: realp_u4_t5_link
-      properties: {text: III. Transfers, align: center}
+      properties: {text: V. Foreclosure, align: center}
       type: Link
       layout_properties: {grid_position: 'JXZXRW,NWOHMU'}
     - name: realp_u4_t5_progress
