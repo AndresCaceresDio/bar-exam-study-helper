@@ -19,7 +19,7 @@ components:
     layout_properties: {grid_position: 'UWZZTU,DJCUUM'}
     components:
     - name: crimlaw_u1_t1_link
-      properties: {}
+      properties: {text: I. Intended Killings, align: center}
       type: Link
       layout_properties: {grid_position: 'YQYGMF,VPZXWN'}
     - name: crimlaw_u1_t1_progress
@@ -32,7 +32,7 @@ components:
     layout_properties: {grid_position: 'UWZZTU,ANQQSF'}
     components:
     - name: crimlaw_u1_t2_link
-      properties: {}
+      properties: {text: II. Unintended Killings, align: center}
       type: Link
       layout_properties: {grid_position: 'UKRWDC,KUGZVJ'}
     - name: crimlaw_u1_t2_progress
@@ -45,7 +45,7 @@ components:
     layout_properties: {grid_position: 'GYZXUQ,CUUYUX'}
     components:
     - name: crimlaw_u1_practice_link
-      properties: {}
+      properties: {text: Practice, align: center}
       type: Link
       layout_properties: {grid_position: 'SSRQRG,RIMLFX'}
     - name: crimlaw_u1_practice_progress
@@ -67,7 +67,7 @@ components:
     layout_properties: {grid_position: 'HAWPNK,VWCIFM'}
     components:
     - name: crimlaw_u3_t1_link
-      properties: {}
+      properties: {text: I. Inchoate Offenses, align: center}
       type: Link
       layout_properties: {grid_position: 'KJWTJZ,WSEOQV'}
     - name: crimlaw_u3_t1_progress
@@ -80,7 +80,7 @@ components:
     layout_properties: {grid_position: 'HAWPNK,ZBKXEN'}
     components:
     - name: crimlaw_u3_t2_link
-      properties: {}
+      properties: {text: II. Parties to Crime, align: center}
       type: Link
       layout_properties: {grid_position: 'OSYNFU,RBMLXW'}
     - name: crimlaw_u3_t2_progress
@@ -93,7 +93,7 @@ components:
     layout_properties: {grid_position: 'LDHLBH,RDYXVW'}
     components:
     - name: crimlaw_u3_practice_link
-      properties: {}
+      properties: {text: Practice, align: center}
       type: Link
       layout_properties: {grid_position: 'HJQCXD,TVIQEO'}
     - name: crimlaw_u3_t3_progress
@@ -215,7 +215,7 @@ components:
     layout_properties: {grid_position: 'RQQTVN,CTQJWD CCWCEH,PFPMCR'}
     components:
     - name: crimlaw_u2_t1_link
-      properties: {}
+      properties: {text: I. Theft and Receiving Stolen Goods, align: center}
       type: Link
       layout_properties: {grid_position: 'ZALUEL,CEGIFI'}
     - name: crimlaw_u2_t1_progress
@@ -228,7 +228,7 @@ components:
     layout_properties: {grid_position: 'RQQTVN,CTQJWD UQZKCD,JGCHIW'}
     components:
     - name: crimlaw_u2_t3_link
-      properties: {}
+      properties: {text: III. Burglary, align: center}
       type: Link
       layout_properties: {grid_position: 'BDYSDL,FUIHHD'}
     - name: crimlaw_u2_t3_progress
@@ -241,7 +241,7 @@ components:
     layout_properties: {grid_position: 'RQQTVN,CTQJWD OWUIJB,TVEEEU'}
     components:
     - name: crimlaw_u2_t5_link
-      properties: {}
+      properties: {text: V. Rape; Statutory Rape, align: center}
       type: Link
       layout_properties: {grid_position: 'EZZUPD,XSMEPM'}
     - name: crimlaw_u2_t5_progress
@@ -254,7 +254,7 @@ components:
     layout_properties: {grid_position: 'RQQTVN,CTQJWD SDGNMC,TPEEKH'}
     components:
     - name: crimlaw_u2_t7_link
-      properties: {}
+      properties: {text: VII. Arson, align: center}
       type: Link
       layout_properties: {grid_position: 'PVEBGY,UZJGLN'}
     - name: crimlaw_u2_t7_progress
@@ -267,7 +267,7 @@ components:
     layout_properties: {grid_position: 'RQQTVN,STWIAD NMAHPV,QHYZWR'}
     components:
     - name: crimlaw_u2_t2_link
-      properties: {}
+      properties: {text: II. Robbery, align: center}
       type: Link
       layout_properties: {grid_position: 'AXIJKB,CMXWVH'}
     - name: crimlaw_u2_t2_progress
@@ -280,7 +280,7 @@ components:
     layout_properties: {grid_position: 'RQQTVN,STWIAD SVZIMB,CQLOFV'}
     components:
     - name: crimlaw_u2_t4_link
-      properties: {}
+      properties: {text: IV. Assault and Battery, align: center}
       type: Link
       layout_properties: {grid_position: 'CLIAMX,SEAAFI'}
     - name: crimlaw_u2_t4_progress
@@ -293,7 +293,7 @@ components:
     layout_properties: {grid_position: 'RQQTVN,STWIAD TKVEGY,QGPCTO'}
     components:
     - name: crimlaw_u2_t6_link
-      properties: {}
+      properties: {text: VI. Kidnapping, align: center}
       type: Link
       layout_properties: {grid_position: 'VNDBVO,VGCCSX'}
     - name: crimlaw_u2_t6_progress
@@ -306,7 +306,7 @@ components:
     layout_properties: {grid_position: 'RQQTVN,STWIAD MIFTBW,RUEFYR'}
     components:
     - name: crimlaw_u2_t8_link
-      properties: {}
+      properties: {text: VIII. Possession Offenses, align: center}
       type: Link
       layout_properties: {grid_position: 'YDVUFC,JNZDEW'}
     - name: crimlaw_u2_t8_progress
@@ -319,7 +319,7 @@ components:
     layout_properties: {grid_position: 'IQDGBD,WQOVDP'}
     components:
     - name: crimlaw_u2_practice_link
-      properties: {}
+      properties: {text: Practice, align: center}
       type: Link
       layout_properties: {grid_position: 'BMFJIX,WMTSTX'}
     - name: crimlaw_u2_practice_progress

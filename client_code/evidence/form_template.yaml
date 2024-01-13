@@ -19,7 +19,7 @@ components:
     layout_properties: {grid_position: 'UWZZTU,DJCUUM VWUGJC,FZHUVJ'}
     components:
     - name: evidence_u1_t1_link
-      properties: {}
+      properties: {text: I. Introduction of Evidence, align: center}
       type: Link
       layout_properties: {grid_position: 'YQYGMF,VPZXWN'}
     - name: evidence_u1_t1_progress
@@ -32,7 +32,7 @@ components:
     layout_properties: {grid_position: 'UWZZTU,DJCUUM HOXBOY,QLDIDO'}
     components:
     - name: evidence_u1_t3_link
-      properties: {}
+      properties: {text: III. Mode and Order, align: center}
       type: Link
       layout_properties: {grid_position: 'CAQWJI,BMFHQN'}
     - name: evidence_u1_t3_progress
@@ -45,7 +45,7 @@ components:
     layout_properties: {grid_position: 'UWZZTU,DJCUUM ZKYMIZ,GNGNVV'}
     components:
     - name: evidence_u1_t5_link
-      properties: {}
+      properties: {text: V. Proceedings, align: center}
       type: Link
       layout_properties: {grid_position: 'QOCJNV,NNWOEX'}
     - name: evidence_u1_t5_progress
@@ -58,7 +58,7 @@ components:
     layout_properties: {grid_position: 'UWZZTU,ANQQSF SIEEGU,CITVKI'}
     components:
     - name: evidence_u1_t2_link
-      properties: {}
+      properties: {text: II. Presumptions, align: center}
       type: Link
       layout_properties: {grid_position: 'UKRWDC,KUGZVJ'}
     - name: evidence_u1_t2_progress
@@ -71,7 +71,7 @@ components:
     layout_properties: {grid_position: 'UWZZTU,ANQQSF BLEVZQ,DBBEYO'}
     components:
     - name: evidence_u1_t4_link
-      properties: {}
+      properties: {text: 'IV. Impeachment, Contradiction, and Rehabilitation', align: center}
       type: Link
       layout_properties: {grid_position: 'PLAYNQ,DHQAUP'}
     - name: evidence_u1_t4_progress
@@ -84,7 +84,7 @@ components:
     layout_properties: {grid_position: 'UWZZTU,ANQQSF YQUECQ,IGZVOV'}
     components:
     - name: evidence_u1_practice_link
-      properties: {}
+      properties: {text: Practice, align: center}
       type: Link
       layout_properties: {grid_position: 'SSRQRG,RIMLFX'}
     - name: evidence_u1_practice_progress
@@ -106,7 +106,7 @@ components:
     layout_properties: {grid_position: 'SSOKGX,ABSTHD BRLRLN,BCSGWZ'}
     components:
     - name: evidence_u3_t1_link
-      properties: {}
+      properties: {text: I. Spousal Immunity and Marital Communications, align: center}
       type: Link
       layout_properties: {grid_position: 'EZPNIC,JUPFXR'}
     - name: evidence_u3_t1_progress
@@ -119,7 +119,7 @@ components:
     layout_properties: {grid_position: 'SSOKGX,ABSTHD AQMCEA,LORCDT'}
     components:
     - name: evidence_u3_t3_link
-      properties: {}
+      properties: {text: 'III. Physician-patient,   psychotherapist-patient', align: center}
       type: Link
       layout_properties: {grid_position: 'ICYLXO,UAUUSM'}
     - name: evidence_u3_t3_progress
@@ -132,7 +132,7 @@ components:
     layout_properties: {grid_position: 'SSOKGX,ABSTHD YUODYZ,PEVYHD'}
     components:
     - name: evidence_u3_t5_link
-      properties: {}
+      properties: {text: V. Insurance Coverage, align: center}
       type: Link
       layout_properties: {grid_position: 'HOGLHN,THMYKB'}
     - name: evidence_u3_t5_progress
@@ -145,7 +145,8 @@ components:
     layout_properties: {grid_position: 'SSOKGX,ABSTHD GLQDCZ,TWVLNX'}
     components:
     - name: evidence_u3_t7_link
-      properties: {}
+      properties: {text: 'VII. Compromise, Payment of Medical Expenses, and Plea Negotiations',
+        align: center}
       type: Link
       layout_properties: {grid_position: 'VYCGCD,YJDCKY'}
     - name: evidence_u3_t7_progress
@@ -158,7 +159,7 @@ components:
     layout_properties: {grid_position: 'SSOKGX,VLLQPQ IQSQBA,NZPWEA'}
     components:
     - name: evidence_u3_t2_link
-      properties: {}
+      properties: {text: II. Attorney-client and Work Product, align: center}
       type: Link
       layout_properties: {grid_position: 'UPEOWZ,CRRIKG'}
     - name: evidence_u3_t2_progress
@@ -171,7 +172,7 @@ components:
     layout_properties: {grid_position: 'SSOKGX,VLLQPQ GKHNFO,TUYGPO'}
     components:
     - name: evidence_u3_t4_link
-      properties: {}
+      properties: {text: IV. Other Privileges, align: center}
       type: Link
       layout_properties: {grid_position: 'VIOWDF,SYHEBF'}
     - name: evidence_u3_t4_progress
@@ -184,7 +185,7 @@ components:
     layout_properties: {grid_position: 'SSOKGX,VLLQPQ NSWIRH,GNBQMR'}
     components:
     - name: evidence_u3_t6_link
-      properties: {}
+      properties: {text: VI. Remedial Measures, align: center}
       type: Link
       layout_properties: {grid_position: 'NHJLKF,KDXRMX'}
     - name: evidence_u3_t6_progress
@@ -197,7 +198,7 @@ components:
     layout_properties: {grid_position: 'SSOKGX,VLLQPQ RUAELK,QJSXPI'}
     components:
     - name: evidence_u3_t8_link
-      properties: {}
+      properties: {text: VIII. Past Sexual Conduct of a Victim, align: center}
       type: Link
       layout_properties: {grid_position: 'GKNDBA,VSYWEX'}
     - name: evidence_u3_t8_progress
@@ -210,74 +211,13 @@ components:
     layout_properties: {grid_position: 'FONYIB,GOXENM'}
     components:
     - name: evidence_u3_practice_link
-      properties: {}
+      properties: {text: Practice, align: center}
       type: Link
       layout_properties: {grid_position: 'GYLTWI,MEIHZM'}
     - name: evidence_u3_practice_progress
       properties: {}
       type: form:progress_bar
       layout_properties: {grid_position: 'ZBINDW,YKELDN'}
-- name: evidence_u5
-  properties: {role: outlined-card}
-  type: ColumnPanel
-  layout_properties: {grid_position: 'HYUJVL,TXGAZU SPCWUN,LYOZKN'}
-  components:
-  - name: evidence_u5_label
-    properties: {text: Hearsay and Circumstances of its Admissibility, align: center}
-    type: Label
-    layout_properties: {grid_position: 'DNOUNG,STZVHA'}
-  - name: evidence_u5_t1
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'HAWPNK,VWCIFM FWAJMI,BDPZUE'}
-    components:
-    - name: evidence_u5_t1_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'KJWTJZ,WSEOQV'}
-    - name: evidence_u5_t1_progress
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'LZOBRE,OMAGAL'}
-  - name: evidence_u5_t3
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'HAWPNK,VWCIFM IJQIUT,WRMPIN'}
-    components:
-    - name: evidence_u5_t3_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'JXZXRW,NWOHMU'}
-    - name: evidence_u5_t3_progress
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'QDTNRY,OYFOMZ'}
-  - name: evidence_u5_t2
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'HAWPNK,ZBKXEN BVBPHQ,FXNGRT'}
-    components:
-    - name: evidence_u5_t2_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'OSYNFU,RBMLXW'}
-    - name: evidence_u5_t2_progress
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'KNHYZU,VVSPPK'}
-  - name: evidence_u5_practice
-    properties: {role: outlined-card}
-    type: ColumnPanel
-    layout_properties: {grid_position: 'HAWPNK,ZBKXEN BEACTA,ZRKDSM'}
-    components:
-    - name: evidence_u5_practice_link
-      properties: {}
-      type: Link
-      layout_properties: {grid_position: 'HJQCXD,TVIQEO'}
-    - name: evidence_u5_practice_progress
-      properties: {}
-      type: form:progress_bar
-      layout_properties: {grid_position: 'NEHYLB,RURLLA'}
 - name: evidence_u2
   properties: {role: outlined-card}
   type: ColumnPanel
@@ -293,7 +233,7 @@ components:
     layout_properties: {grid_position: 'SUOGYR,BRLXSC EGOPCY,BLBTOJ'}
     components:
     - name: evidence_u2_t1_link
-      properties: {}
+      properties: {text: I. Probative Value, align: center}
       type: Link
       layout_properties: {grid_position: 'DAQFXL,BMMLJM'}
     - name: evidence_u2_t1_progress
@@ -306,7 +246,7 @@ components:
     layout_properties: {grid_position: 'SUOGYR,BRLXSC AQOIXP,XQTQNG'}
     components:
     - name: evidence_u2_t3_link
-      properties: {}
+      properties: {text: III. Character, align: center}
       type: Link
       layout_properties: {grid_position: 'AUUODK,SFAPFT'}
     - name: evidence_u2_t3_progress
@@ -319,7 +259,7 @@ components:
     layout_properties: {grid_position: 'SUOGYR,BRLXSC STTRUB,NDJXVJ'}
     components:
     - name: evidence_u2_t5_link
-      properties: {}
+      properties: {text: 'V. Real, Demonstrative, and Experimental Evidence', align: center}
       type: Link
       layout_properties: {grid_position: 'SAVPIS,ELITHX'}
     - name: evidence_u2_t5_progress
@@ -332,7 +272,7 @@ components:
     layout_properties: {grid_position: 'SUOGYR,OZOHFA JIHSUA,XZYIHN'}
     components:
     - name: evidence_u2_t2_link
-      properties: {}
+      properties: {text: II. Authentication and Identification, align: center}
       type: Link
       layout_properties: {grid_position: 'GQPZIH,EXLVTV'}
     - name: evidence_u2_t2_progress
@@ -345,7 +285,7 @@ components:
     layout_properties: {grid_position: 'SUOGYR,OZOHFA DHUPQE,CDAEZP'}
     components:
     - name: evidence_u2_t4_link
-      properties: {}
+      properties: {text: IV. Expert Testimony, align: center}
       type: Link
       layout_properties: {grid_position: 'XKPOWB,BQRSGE'}
     - name: evidence_u2_t4_progress
@@ -358,20 +298,81 @@ components:
     layout_properties: {grid_position: 'SUOGYR,OZOHFA HXLKCN,WAPXTR'}
     components:
     - name: evidence_u2_practice_link
-      properties: {}
+      properties: {text: Practice, align: center}
       type: Link
       layout_properties: {grid_position: 'ALQKSD,WSYOWX'}
     - name: evidence_u2_practice_progress
       properties: {}
       type: form:progress_bar
       layout_properties: {grid_position: 'UVLZIG,FBGQUJ'}
+- name: evidence_u5
+  properties: {role: outlined-card}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'HYUJVL,MIXCWL CYNCZW,CBYPCI'}
+  components:
+  - name: evidence_u5_label
+    properties: {text: 'Writings, Recordings, and Photographs', align: center}
+    type: Label
+    layout_properties: {grid_position: 'DNOUNG,STZVHA'}
+  - name: evidence_u5_t1
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'HAWPNK,VWCIFM FWAJMI,BDPZUE'}
+    components:
+    - name: evidence_u5_t1_link
+      properties: {text: I. Requirement of Original, align: center}
+      type: Link
+      layout_properties: {grid_position: 'KJWTJZ,WSEOQV'}
+    - name: evidence_u5_t1_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'LZOBRE,OMAGAL'}
+  - name: evidence_u5_t3
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'HAWPNK,VWCIFM IJQIUT,WRMPIN'}
+    components:
+    - name: evidence_u5_t3_link
+      properties: {text: III. Completeness Rule, align: center}
+      type: Link
+      layout_properties: {grid_position: 'JXZXRW,NWOHMU'}
+    - name: evidence_u5_t3_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'QDTNRY,OYFOMZ'}
+  - name: evidence_u5_t2
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'HAWPNK,ZBKXEN BVBPHQ,FXNGRT'}
+    components:
+    - name: evidence_u5_t2_link
+      properties: {text: II. Summaries, align: center}
+      type: Link
+      layout_properties: {grid_position: 'OSYNFU,RBMLXW'}
+    - name: evidence_u5_t2_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'KNHYZU,VVSPPK'}
+  - name: evidence_u5_practice
+    properties: {role: outlined-card}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'HAWPNK,ZBKXEN BEACTA,ZRKDSM'}
+    components:
+    - name: evidence_u5_practice_link
+      properties: {text: IV. Practice, align: center}
+      type: Link
+      layout_properties: {grid_position: 'HJQCXD,TVIQEO'}
+    - name: evidence_u5_practice_progress
+      properties: {}
+      type: form:progress_bar
+      layout_properties: {grid_position: 'NEHYLB,RURLLA'}
 - name: evidence_u4
   properties: {role: outlined-card}
   type: ColumnPanel
   layout_properties: {grid_position: 'HYUJVL,MIXCWL ZSHSEB,BPSRCZ'}
   components:
   - name: evidence_u4_label
-    properties: {text: 'Writings, Recordings, and Photographs', align: center}
+    properties: {text: Hearsay and Circumstances of its Admissibility, align: center}
     type: Label
     layout_properties: {grid_position: 'UUKQWF,STBPRS'}
   - name: evidence_u4_t1
@@ -380,7 +381,7 @@ components:
     layout_properties: {grid_position: 'RQQTVN,CTQJWD CCWCEH,PFPMCR'}
     components:
     - name: evidence_u4_t1_link
-      properties: {}
+      properties: {text: I. Definition of Hearsay, align: center}
       type: Link
       layout_properties: {grid_position: 'ZALUEL,CEGIFI'}
     - name: evidence_u4_t1_progress
@@ -393,7 +394,8 @@ components:
     layout_properties: {grid_position: 'RQQTVN,CTQJWD UQZKCD,JGCHIW'}
     components:
     - name: evidence_u4_t3_link
-      properties: {}
+      properties: {text: 'III. Statements of Mental, Emotional, or Physical Condition',
+        align: center}
       type: Link
       layout_properties: {grid_position: 'BDYSDL,FUIHHD'}
     - name: evidence_u4_t3_progress
@@ -406,7 +408,7 @@ components:
     layout_properties: {grid_position: 'RQQTVN,CTQJWD OWUIJB,TVEEEU'}
     components:
     - name: evidence_u4_t5_link
-      properties: {}
+      properties: {text: V. Past Recollection Recorded, align: center}
       type: Link
       layout_properties: {grid_position: 'EZZUPD,XSMEPM'}
     - name: evidence_u4_t5_progress
@@ -419,7 +421,7 @@ components:
     layout_properties: {grid_position: 'RQQTVN,CTQJWD SDGNMC,TPEEKH'}
     components:
     - name: evidence_u4_t7_link
-      properties: {}
+      properties: {text: VII. Public Records and Reports, align: center}
       type: Link
       layout_properties: {grid_position: 'PVEBGY,UZJGLN'}
     - name: evidence_u4_t7_progress
@@ -432,7 +434,7 @@ components:
     layout_properties: {grid_position: 'RQQTVN,CTQJWD WLTUQJ,QWAJIH'}
     components:
     - name: evidence_u4_t9_link
-      properties: {}
+      properties: {text: IX. Former Testimony; Depositions, align: center}
       type: Link
       layout_properties: {grid_position: 'YDVUFC,JNZDEW'}
     - name: evidence_u4_t9_progress
@@ -445,7 +447,7 @@ components:
     layout_properties: {grid_position: 'RQQTVN,CTQJWD VLLZKO,ORQBEO'}
     components:
     - name: evidence_u4_t11_link
-      properties: {}
+      properties: {text: XI. Other Exceptions to the Hearsay Rule, align: center}
       type: Link
       layout_properties: {grid_position: 'YDVUFC,JNZDEW'}
     - name: evidence_u4_t11_progress
@@ -458,7 +460,7 @@ components:
     layout_properties: {grid_position: 'RQQTVN,STWIAD NMAHPV,QHYZWR'}
     components:
     - name: evidence_u4_t2_link
-      properties: {}
+      properties: {text: II. Present Sense Impressions and Excited Utterances, align: center}
       type: Link
       layout_properties: {grid_position: 'AXIJKB,CMXWVH'}
     - name: evidence_u4_t2_progress
@@ -471,7 +473,8 @@ components:
     layout_properties: {grid_position: 'RQQTVN,STWIAD SVZIMB,CQLOFV'}
     components:
     - name: evidence_u4_t4_link
-      properties: {}
+      properties: {text: IV. Statements for Purposes of Medical Diagnosis and Treatment,
+        align: center}
       type: Link
       layout_properties: {grid_position: 'CLIAMX,SEAAFI'}
     - name: evidence_u4_t4_progress
@@ -484,7 +487,7 @@ components:
     layout_properties: {grid_position: 'RQQTVN,STWIAD TKVEGY,QGPCTO'}
     components:
     - name: evidence_u4_t6_link
-      properties: {}
+      properties: {text: VI. Business Records, align: center}
       type: Link
       layout_properties: {grid_position: 'VNDBVO,VGCCSX'}
     - name: evidence_u4_t6_progress
@@ -497,7 +500,7 @@ components:
     layout_properties: {grid_position: 'RQQTVN,STWIAD MIFTBW,RUEFYR'}
     components:
     - name: evidence_u4_t8_link
-      properties: {}
+      properties: {text: VIII. Learned Treatises, align: center}
       type: Link
       layout_properties: {grid_position: 'YDVUFC,JNZDEW'}
     - name: evidence_u4_t8_progress
@@ -510,7 +513,7 @@ components:
     layout_properties: {grid_position: 'RQQTVN,STWIAD UPNNFN,UYPLHO'}
     components:
     - name: evidence_u4_t10_link
-      properties: {}
+      properties: {text: X. Statements Against Interest, align: center}
       type: Link
       layout_properties: {grid_position: 'YDVUFC,JNZDEW'}
     - name: evidence_u4_t10_progress
@@ -523,7 +526,7 @@ components:
     layout_properties: {grid_position: 'RQQTVN,STWIAD XZKIYE,VFZQWE'}
     components:
     - name: evidence_u4_t12_link
-      properties: {}
+      properties: {text: XII. Right to Confront Witnesses, align: center}
       type: Link
       layout_properties: {grid_position: 'YDVUFC,JNZDEW'}
     - name: evidence_u4_t12_progress
@@ -536,7 +539,7 @@ components:
     layout_properties: {grid_position: 'IQDGBD,WQOVDP'}
     components:
     - name: evidence_u4_practice_link
-      properties: {}
+      properties: {text: Practice, align: center}
       type: Link
       layout_properties: {grid_position: 'BMFJIX,WMTSTX'}
     - name: evidence_u4_practice_progress
@@ -549,7 +552,7 @@ components:
   layout_properties: {grid_position: 'AZMGNA,GISDEW'}
   components:
   - name: evidence_quiz_link
-    properties: {}
+    properties: {text: Evidence Quiz, align: center}
     type: Link
     layout_properties: {grid_position: 'ZXIESM,GOWJSO'}
 is_package: true
